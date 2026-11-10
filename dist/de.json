@@ -1,0 +1,525 @@
+{
+  "slug": "awesome-mcp-brasil",
+  "language": "de",
+  "title": "Awesome MCP Brasil",
+  "description": "MCP-Server für brasilianische Dienste: öffentliche Daten, CNPJ, Steuern, Recht, Finanzmarkt, Handel und Zahlungen.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "dados-publicos",
+      "title": "Öffentliche Daten und Staat",
+      "items": [
+        {
+          "name": "bcb-br-mcp",
+          "url": "https://github.com/SidneyBissoli/bcb-br-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-bcb-br-mcp",
+          "description": "Daten der Banco Central für Agenten: Selic, IPCA, Wechselkurs und BIP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brasil-data-mcp",
+          "url": "https://github.com/alanpcf/brasil-data-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-brasil-data-mcp",
+          "description": "Öffentliche brasilianische Daten auf einem einzigen Server: CNPJ, CEP, Banken, Feiertage, DDD, ISBN und Wirtschaftsindikatoren.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "cvm-mcp",
+          "url": "https://github.com/msperlin/cvm-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-cvm-mcp",
+          "description": "Ein MCP-Server für das gesamte offene Datenarchiv der CVM.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ibge-br-mcp",
+          "url": "https://github.com/SidneyBissoli/ibge-br-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-ibge-br-mcp",
+          "description": "Die APIs des IBGE für Agenten: geografische, demografische und statistische Daten.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Brasil",
+          "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-brasil",
+          "description": "MCP-Server mit 70 öffentlichen brasilianischen APIs.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-dados-br",
+          "url": "https://github.com/lucianoon/mcp-dados-br",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dados-br",
+          "description": "Öffentliche Daten des IBGE, der Banco Central, des INMET, der Câmara und des Senado.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-senado",
+          "url": "https://github.com/cristianoaredes/mcp-senado",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-senado",
+          "description": "Die offenen Daten des Senado Federal für Agenten: Gesetzgebung, Senatoren und Abstimmungen.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "senado-br-mcp-cloudflare",
+          "url": "https://github.com/SidneyBissoli/senado-br-mcp-cloudflare",
+          "link": "https://go.mymarketing.click/mcpbr-senado-br-mcp-cloudflare",
+          "description": "Gehosteter MCP-Server des Senado Federal auf Cloudflare Workers.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "empresas",
+      "title": "Unternehmen, CNPJ und öffentliche Ausschreibungen",
+      "items": [
+        {
+          "name": "Buscador de CNPJ",
+          "url": "https://github.com/buscadordecnpj/buscador-de-cnpj",
+          "link": "https://go.mymarketing.click/mcpbr-buscador-de-cnpj",
+          "description": "MCP-Server zur Abfrage von Unternehmen über den Dienst Buscador de CNPJ.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "CNPJ e CEP",
+          "url": "https://brazil-lookup.mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-cnpj-e-cep",
+          "description": "Entfernter MCP-Server mit Unternehmensdaten per CNPJ, CEP, Feiertagen, DDD, Banken, NCM, Selic, CDI und IPCA sowie Prüfung von CPF und CNPJ.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "cnpj-mcp",
+          "url": "https://github.com/bnovarini/cnpj-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-cnpj-mcp",
+          "description": "Analytische Abfragen auf der offenen CNPJ-Datenbank der Receita Federal, mit DuckDB.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Licinexus MCP",
+          "url": "https://github.com/Licinexus/licinexus-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-licinexus-mcp",
+          "description": "Daten zu öffentlichen Ausschreibungen des PNCP und der Receita Federal für Agenten.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-dadosbr",
+          "url": "https://github.com/cristianoaredes/mcp-dadosbr",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dadosbr",
+          "description": "Abfrage eines Unternehmens per CNPJ und einer Adresse per CEP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Radar CNPJ MCP",
+          "url": "https://github.com/wendersoon/radar-cnpj-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-radar-cnpj-mcp",
+          "description": "Findet brasilianische Unternehmen nach CNAE und Region, mit offenen Daten der Receita Federal.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "fiscal",
+      "title": "Steuern und Rechnungen",
+      "items": [
+        {
+          "name": "MCP Fiscal Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-fiscal-brasil",
+          "description": "Steuerlicher MCP-Server: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional und die Steuerreform.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Server ACBrNFe",
+          "url": "https://github.com/Code4Delphi/MCP-Server-ACBrNFe",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-server-acbrnfe",
+          "description": "Erstellung und Versand von NF-e mit der Komponente ACBrNFe in Delphi.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "juridico",
+      "title": "Recht und Gesetzgebung",
+      "items": [
+        {
+          "name": "BNP API",
+          "url": "https://github.com/georgemarmelstein/bnp-api",
+          "link": "https://go.mymarketing.click/mcpbr-bnp-api",
+          "description": "MCP-Server für die Banco Nacional de Precedentes des CNJ mit Suche nach verbindlichen Präzedenzfällen.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "br-eli-mcp",
+          "url": "https://github.com/matematicsolutions/br-eli-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-br-eli-mcp",
+          "description": "Brasilianische Gesetzgebung über acht offene APIs ohne Schlüssel: Gesetzesvorlagen und Gesetze der Câmara und des Senado, DataJud und weitere.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brlaw_mcp_server",
+          "url": "https://github.com/pdmtt/brlaw_mcp_server",
+          "link": "https://go.mymarketing.click/mcpbr-brlaw-mcp-server",
+          "description": "Recherche zum brasilianischen Recht in offiziellen Quellen, durchgeführt von Agenten.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "leis-mcp",
+          "url": "https://github.com/mazulo/leis-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-leis-mcp",
+          "description": "Sucht und zitiert brasilianische Gesetzgebung in Claude und anderen Assistenten.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Jurídico Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-juridico-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-juridico-brasil",
+          "description": "Modulare juristische Plattform per MCP, beginnend mit der Verfahrensverfolgung.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mercado-financeiro",
+      "title": "Finanzmarkt",
+      "items": [
+        {
+          "name": "bolsai-mcp",
+          "url": "https://github.com/viniciuslazzari/bolsai-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-bolsai-mcp",
+          "description": "Daten des brasilianischen Aktienmarkts (B3, CVM und Banco Central) für Agenten.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DataBolsa",
+          "url": "https://github.com/databolsahq/databolsa",
+          "link": "https://go.mymarketing.click/mcpbr-databolsa",
+          "description": "TypeScript-SDK, CLI und MCP-Server für die Börsendaten-API von DataBolsa.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "local-openfinance",
+          "url": "https://github.com/barbieri/local-openfinance",
+          "link": "https://go.mymarketing.click/mcpbr-local-openfinance",
+          "description": "Synchronisiert Daten aus Open Finance Brasilien in eine lokale SQLite-Datenbank, um Ausgaben zu erfassen und Berichte zu erstellen.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenFinData",
+          "url": "https://github.com/robertoecf/OpenFinData",
+          "link": "https://go.mymarketing.click/mcpbr-openfindata",
+          "description": "Offene Infrastruktur für öffentliche Finanzdaten Brasiliens.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "agro",
+      "title": "Agrarwirtschaft",
+      "items": [
+        {
+          "name": "agrobr-mcp",
+          "url": "https://github.com/bruno-portfolio/agrobr-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-agrobr-mcp",
+          "description": "Brasilianische Agrardaten: Preise, Ernten, Handel, Klima und Abholzung.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Agro Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-agro-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-agro-brasil",
+          "description": "Agrarnotierungen (Rind, Soja, Mais, Milch) und Einheitenumrechnung.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pagamentos",
+      "title": "Digitale Zahlungen und Verkäufe",
+      "items": [
+        {
+          "name": "Hotmart",
+          "url": "https://hotmart.mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-hotmart",
+          "description": "Entfernter MCP-Server mit Verkäufen, Abonnements und Partnerprovisionen von Hotmart; Rückerstattungen nur mit Genehmigung.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "hotmart-mcp",
+          "url": "https://github.com/thaleslaray/hotmart-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-hotmart-mcp",
+          "description": "MCP-Server für die Hotmart-API: Verkäufe, Abonnements, Club, Produkte und Gutscheine.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago MCP Server",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/mcp-server/overview",
+          "link": "https://go.mymarketing.click/mcpbr-mercado-pago-mcp-server",
+          "description": "Der offizielle MCP-Server von Mercado Pago, um die Dokumentation abzufragen und Zahlungen über den Agenten zu integrieren.",
+          "tags": [
+            "oficial"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-woovi-api",
+          "url": "https://github.com/guilhermemarch/mcp-woovi-api",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-woovi-api",
+          "description": "MCP-Server für die Woovi- und OpenPix-API, für Pix-Zahlungsanforderungen.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "comercio",
+      "title": "E-Commerce und Marktplätze",
+      "items": [
+        {
+          "name": "MCP Dev LATAM",
+          "url": "https://github.com/codespar/mcp-dev-latam",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dev-latam",
+          "description": "MCP-Server für den Handel in Lateinamerika: Pix, NF-e, Banken, Steuern, Logistik und Nachrichten.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-mercado-livre",
+          "url": "https://github.com/newerton/mcp-mercado-livre",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-mercado-livre",
+          "description": "MCP-Server für die Mercado-Livre-API.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nuvemshop-mcp-server",
+          "url": "https://github.com/AlexandreProenca/nuvemshop-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-nuvemshop-mcp-server",
+          "description": "MCP-Server für die Nuvemshop-API: Produkte, Bestellungen und Kunden.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "erp",
+      "title": "ERPs und Verwaltung",
+      "items": [
+        {
+          "name": "bling-erp-mcp-server",
+          "url": "https://github.com/tempont/bling-erp-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-bling-erp-mcp-server",
+          "description": "Inoffizieller MCP-Server für Bling ERP.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Conta Azul MCP",
+          "url": "https://github.com/douglac/contaazul-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-conta-azul-mcp",
+          "description": "Verbindet das ERP Conta Azul mit Claude, Cursor und Agenten: Verkäufe, Kunden und Produkte.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "olist-mcp-server",
+          "url": "https://github.com/opastorello/olist-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-olist-mcp-server",
+          "description": "MCP-Server für die API v3 von Olist ERP (Tiny), mit Werkzeugen aus der OpenAPI-Spezifikation generiert.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ecossistemas",
+      "title": "Sammlungen und Ökosysteme",
+      "items": [
+        {
+          "name": "BridgeAPI",
+          "url": "https://github.com/EvandroSchechtel/BridgeAPI",
+          "link": "https://go.mymarketing.click/mcpbr-bridgeapi",
+          "description": "Ein Ökosystem von MCP-Konnektoren für brasilianische Plattformen wie WhatsApp und Hotmart.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Connectors (Agents)",
+          "url": "https://mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-connectors-agents",
+          "description": "Katalog entfernter MCP-Server mit OAuth, darunter CNPJ, CEP und Hotmart, für Claude, Cursor und andere Clients.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

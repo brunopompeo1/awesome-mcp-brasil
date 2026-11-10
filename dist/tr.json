@@ -1,0 +1,525 @@
+{
+  "slug": "awesome-mcp-brasil",
+  "language": "tr",
+  "title": "Awesome MCP Brasil",
+  "description": "Brezilya hizmetleri için MCP sunucuları: açık veriler, CNPJ, vergi, hukuk, finans piyasası, ticaret ve ödemeler.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "dados-publicos",
+      "title": "Açık veriler ve kamu",
+      "items": [
+        {
+          "name": "bcb-br-mcp",
+          "url": "https://github.com/SidneyBissoli/bcb-br-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-bcb-br-mcp",
+          "description": "Ajanlar için Banco Central verileri: Selic, IPCA, döviz kuru ve GSYH.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brasil-data-mcp",
+          "url": "https://github.com/alanpcf/brasil-data-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-brasil-data-mcp",
+          "description": "Brezilya açık verileri tek bir sunucuda: CNPJ, CEP, bankalar, resmi tatiller, DDD, ISBN ve ekonomik göstergeler.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "cvm-mcp",
+          "url": "https://github.com/msperlin/cvm-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-cvm-mcp",
+          "description": "CVM'nin tüm açık veri deposu için bir MCP sunucusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ibge-br-mcp",
+          "url": "https://github.com/SidneyBissoli/ibge-br-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-ibge-br-mcp",
+          "description": "Ajanlar için IBGE API'leri: coğrafi, demografik ve istatistiksel veriler.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Brasil",
+          "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-brasil",
+          "description": "70 Brezilya kamu API'sine sahip MCP sunucusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-dados-br",
+          "url": "https://github.com/lucianoon/mcp-dados-br",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dados-br",
+          "description": "IBGE, Banco Central, INMET, Câmara ve Senado'nun açık verileri.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-senado",
+          "url": "https://github.com/cristianoaredes/mcp-senado",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-senado",
+          "description": "Ajanlar için Senado Federal açık verileri: mevzuat, senatörler ve oylamalar.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "senado-br-mcp-cloudflare",
+          "url": "https://github.com/SidneyBissoli/senado-br-mcp-cloudflare",
+          "link": "https://go.mymarketing.click/mcpbr-senado-br-mcp-cloudflare",
+          "description": "Cloudflare Workers üzerinde barındırılan Senado Federal MCP sunucusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "empresas",
+      "title": "Şirketler, CNPJ ve kamu ihaleleri",
+      "items": [
+        {
+          "name": "Buscador de CNPJ",
+          "url": "https://github.com/buscadordecnpj/buscador-de-cnpj",
+          "link": "https://go.mymarketing.click/mcpbr-buscador-de-cnpj",
+          "description": "Buscador de CNPJ hizmeti üzerinden şirket sorgulamak için MCP sunucusu.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "CNPJ e CEP",
+          "url": "https://brazil-lookup.mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-cnpj-e-cep",
+          "description": "CNPJ, CEP, resmi tatiller, DDD, bankalar, NCM, Selic, CDI ve IPCA ile şirket bilgisi veren uzak MCP sunucusu; CPF ve CNPJ doğrulaması da yapar.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "cnpj-mcp",
+          "url": "https://github.com/bnovarini/cnpj-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-cnpj-mcp",
+          "description": "DuckDB ile Receita Federal'in açık CNPJ veritabanı üzerinde analitik sorgular.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Licinexus MCP",
+          "url": "https://github.com/Licinexus/licinexus-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-licinexus-mcp",
+          "description": "Ajanlar için PNCP ve Receita Federal kamu alım verileri.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-dadosbr",
+          "url": "https://github.com/cristianoaredes/mcp-dadosbr",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dadosbr",
+          "description": "CNPJ ile şirket ve CEP ile adres sorgusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Radar CNPJ MCP",
+          "url": "https://github.com/wendersoon/radar-cnpj-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-radar-cnpj-mcp",
+          "description": "Receita Federal'in açık verileriyle CNAE ve bölgeye göre Brezilya şirketlerini bulur.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "fiscal",
+      "title": "Vergi ve fatura",
+      "items": [
+        {
+          "name": "MCP Fiscal Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-fiscal-brasil",
+          "description": "Mali MCP sunucusu: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional ve vergi reformu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Server ACBrNFe",
+          "url": "https://github.com/Code4Delphi/MCP-Server-ACBrNFe",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-server-acbrnfe",
+          "description": "Delphi'de ACBrNFe bileşeniyle NF-e oluşturma ve gönderme.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "juridico",
+      "title": "Hukuk ve mevzuat",
+      "items": [
+        {
+          "name": "BNP API",
+          "url": "https://github.com/georgemarmelstein/bnp-api",
+          "link": "https://go.mymarketing.click/mcpbr-bnp-api",
+          "description": "CNJ'nin Banco Nacional de Precedentes'i için MCP sunucusu; bağlayıcı emsal kararlarda arama yapar.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "br-eli-mcp",
+          "url": "https://github.com/matematicsolutions/br-eli-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-br-eli-mcp",
+          "description": "Anahtar gerektirmeyen sekiz açık API ile Brezilya mevzuatı: Câmara ve Senado'nun kanun ve tasarıları, DataJud ve diğerleri.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brlaw_mcp_server",
+          "url": "https://github.com/pdmtt/brlaw_mcp_server",
+          "link": "https://go.mymarketing.click/mcpbr-brlaw-mcp-server",
+          "description": "Ajanlar tarafından resmi kaynaklarda Brezilya hukuku üzerine araştırma.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "leis-mcp",
+          "url": "https://github.com/mazulo/leis-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-leis-mcp",
+          "description": "Claude ve diğer asistanlarda Brezilya mevzuatını arar ve alıntılar.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Jurídico Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-juridico-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-juridico-brasil",
+          "description": "Dava takibinden başlayan, MCP ile modüler hukuk platformu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mercado-financeiro",
+      "title": "Finans piyasası",
+      "items": [
+        {
+          "name": "bolsai-mcp",
+          "url": "https://github.com/viniciuslazzari/bolsai-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-bolsai-mcp",
+          "description": "Ajanlar için Brezilya hisse senedi piyasası verileri (B3, CVM ve Banco Central).",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DataBolsa",
+          "url": "https://github.com/databolsahq/databolsa",
+          "link": "https://go.mymarketing.click/mcpbr-databolsa",
+          "description": "DataBolsa'nın Brezilya borsa veri API'si için TypeScript SDK'sı, CLI ve MCP sunucusu.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "local-openfinance",
+          "url": "https://github.com/barbieri/local-openfinance",
+          "link": "https://go.mymarketing.click/mcpbr-local-openfinance",
+          "description": "Open Finance verilerini harcamaları not etmek ve raporlar üretmek için yerel bir SQLite veritabanına senkronize eder.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenFinData",
+          "url": "https://github.com/robertoecf/OpenFinData",
+          "link": "https://go.mymarketing.click/mcpbr-openfindata",
+          "description": "Brezilya'nın kamu finansal verileri için açık altyapı.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "agro",
+      "title": "Tarım işletmeciliği",
+      "items": [
+        {
+          "name": "agrobr-mcp",
+          "url": "https://github.com/bruno-portfolio/agrobr-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-agrobr-mcp",
+          "description": "Brezilya tarım verileri: fiyatlar, hasatlar, ticaret, iklim ve ormansızlaşma.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Agro Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-agro-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-agro-brasil",
+          "description": "Tarım sektörü fiyatları (sığır, soya, mısır, süt) ve birim dönüşümleri.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pagamentos",
+      "title": "Dijital ödemeler ve satışlar",
+      "items": [
+        {
+          "name": "Hotmart",
+          "url": "https://hotmart.mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-hotmart",
+          "description": "Hotmart satışları, abonelikleri ve ortak komisyonları için uzak MCP sunucusu; iade yalnızca onayla yapılır.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "hotmart-mcp",
+          "url": "https://github.com/thaleslaray/hotmart-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-hotmart-mcp",
+          "description": "Hotmart API için MCP sunucusu: satışlar, abonelikler, kulüp, ürünler ve kuponlar.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago MCP Server",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/mcp-server/overview",
+          "link": "https://go.mymarketing.click/mcpbr-mercado-pago-mcp-server",
+          "description": "Mercado Pago'nun resmi MCP sunucusu; belgeleri sorgulamak ve ödemeleri ajan üzerinden entegre etmek için.",
+          "tags": [
+            "oficial"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-woovi-api",
+          "url": "https://github.com/guilhermemarch/mcp-woovi-api",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-woovi-api",
+          "description": "Woovi ve OpenPix API için MCP sunucusu, Pix ile tahsilatlar için.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "comercio",
+      "title": "E-ticaret ve pazar yerleri",
+      "items": [
+        {
+          "name": "MCP Dev LATAM",
+          "url": "https://github.com/codespar/mcp-dev-latam",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dev-latam",
+          "description": "Latin Amerika ticareti için MCP sunucuları: Pix, NF-e, bankalar, vergi, lojistik ve mesajlaşma.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-mercado-livre",
+          "url": "https://github.com/newerton/mcp-mercado-livre",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-mercado-livre",
+          "description": "Mercado Livre API ile etkileşim için MCP sunucusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nuvemshop-mcp-server",
+          "url": "https://github.com/AlexandreProenca/nuvemshop-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-nuvemshop-mcp-server",
+          "description": "Nuvemshop API için MCP sunucusu: ürünler, siparişler ve müşteriler.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "erp",
+      "title": "ERP ve yönetim",
+      "items": [
+        {
+          "name": "bling-erp-mcp-server",
+          "url": "https://github.com/tempont/bling-erp-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-bling-erp-mcp-server",
+          "description": "Bling ERP için resmi olmayan MCP sunucusu.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Conta Azul MCP",
+          "url": "https://github.com/douglac/contaazul-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-conta-azul-mcp",
+          "description": "Conta Azul ERP'yi Claude, Cursor ve ajanlara bağlar: satışlar, müşteriler ve ürünler.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "olist-mcp-server",
+          "url": "https://github.com/opastorello/olist-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-olist-mcp-server",
+          "description": "Olist ERP (Tiny) API v3 için MCP sunucusu; araçlar OpenAPI belirtiminden üretilmiştir.",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ecossistemas",
+      "title": "Koleksiyonlar ve ekosistemler",
+      "items": [
+        {
+          "name": "BridgeAPI",
+          "url": "https://github.com/EvandroSchechtel/BridgeAPI",
+          "link": "https://go.mymarketing.click/mcpbr-bridgeapi",
+          "description": "WhatsApp ve Hotmart gibi Brezilya platformları için bir MCP bağlayıcı ekosistemi.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Connectors (Agents)",
+          "url": "https://mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-connectors-agents",
+          "description": "OAuth destekli uzak MCP sunucuları kataloğu; arasında CNPJ, CEP ve Hotmart da var; Claude, Cursor ve diğer istemciler için.",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "slug": "awesome-mcp-brasil",
+  "language": "zh",
+  "title": "Awesome MCP Brasil",
+  "description": "面向巴西服务的 MCP 服务器：公共数据、CNPJ、税务、法律、金融市场、电子商务和支付。",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "dados-publicos",
+      "title": "公共数据与政务",
+      "items": [
+        {
+          "name": "bcb-br-mcp",
+          "url": "https://github.com/SidneyBissoli/bcb-br-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-bcb-br-mcp",
+          "description": "供智能体使用的 Banco Central 数据：Selic、IPCA、汇率和 PIB。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brasil-data-mcp",
+          "url": "https://github.com/alanpcf/brasil-data-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-brasil-data-mcp",
+          "description": "巴西公共数据集中在一台服务器上：CNPJ、CEP、银行、节假日、DDD、ISBN 和经济指标。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "cvm-mcp",
+          "url": "https://github.com/msperlin/cvm-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-cvm-mcp",
+          "description": "面向 CVM 全部开放数据仓库的 MCP 服务器。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ibge-br-mcp",
+          "url": "https://github.com/SidneyBissoli/ibge-br-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-ibge-br-mcp",
+          "description": "供智能体使用的 IBGE API：地理、人口和统计数据。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Brasil",
+          "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-brasil",
+          "description": "包含 70 个巴西公共 API 的 MCP 服务器。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-dados-br",
+          "url": "https://github.com/lucianoon/mcp-dados-br",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dados-br",
+          "description": "IBGE、Banco Central、INMET、Câmara 和 Senado 的公共数据。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-senado",
+          "url": "https://github.com/cristianoaredes/mcp-senado",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-senado",
+          "description": "供智能体使用的 Senado Federal 开放数据：立法、参议员和投票。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "senado-br-mcp-cloudflare",
+          "url": "https://github.com/SidneyBissoli/senado-br-mcp-cloudflare",
+          "link": "https://go.mymarketing.click/mcpbr-senado-br-mcp-cloudflare",
+          "description": "部署在 Cloudflare Workers 上的 Senado Federal 托管 MCP 服务器。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "empresas",
+      "title": "企业、CNPJ 与政府采购",
+      "items": [
+        {
+          "name": "Buscador de CNPJ",
+          "url": "https://github.com/buscadordecnpj/buscador-de-cnpj",
+          "link": "https://go.mymarketing.click/mcpbr-buscador-de-cnpj",
+          "description": "通过 Buscador de CNPJ 服务查询企业的 MCP 服务器。",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "CNPJ e CEP",
+          "url": "https://brazil-lookup.mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-cnpj-e-cep",
+          "description": "远程 MCP 服务器，可按 CNPJ 查询企业，并查询 CEP、节假日、DDD、银行、NCM、Selic、CDI 和 IPCA，还可核验 CPF 和 CNPJ。",
+          "tags": [
+            "gratis"
+          ],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "cnpj-mcp",
+          "url": "https://github.com/bnovarini/cnpj-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-cnpj-mcp",
+          "description": "基于 DuckDB 对 Receita Federal 开放 CNPJ 数据库进行分析查询。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Licinexus MCP",
+          "url": "https://github.com/Licinexus/licinexus-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-licinexus-mcp",
+          "description": "供智能体使用的 PNCP 和 Receita Federal 政府采购数据。",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-dadosbr",
+          "url": "https://github.com/cristianoaredes/mcp-dadosbr",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dadosbr",
+          "description": "按 CNPJ 查询企业，按 CEP 查询地址。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Radar CNPJ MCP",
+          "url": "https://github.com/wendersoon/radar-cnpj-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-radar-cnpj-mcp",
+          "description": "按 CNAE 和地区查找巴西企业，数据来自 Receita Federal 开放数据。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "fiscal",
+      "title": "税务与发票",
+      "items": [
+        {
+          "name": "MCP Fiscal Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-fiscal-brasil",
+          "description": "税务 MCP 服务器：CNPJ、NF-e、NFS-e、CT-e、SPED、eSocial、Simples Nacional 和税制改革。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Server ACBrNFe",
+          "url": "https://github.com/Code4Delphi/MCP-Server-ACBrNFe",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-server-acbrnfe",
+          "description": "使用 Delphi 中的 ACBrNFe 组件生成并发送 NF-e。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "juridico",
+      "title": "法律与法规",
+      "items": [
+        {
+          "name": "BNP API",
+          "url": "https://github.com/georgemarmelstein/bnp-api",
+          "link": "https://go.mymarketing.click/mcpbr-bnp-api",
+          "description": "面向 CNJ Banco Nacional de Precedentes 的 MCP 服务器，可搜索有约束力的判例。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "br-eli-mcp",
+          "url": "https://github.com/matematicsolutions/br-eli-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-br-eli-mcp",
+          "description": "通过八个免密钥开放 API 查询巴西法律：Câmara 和 Senado 的法案与法律、DataJud 等。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "brlaw_mcp_server",
+          "url": "https://github.com/pdmtt/brlaw_mcp_server",
+          "link": "https://go.mymarketing.click/mcpbr-brlaw-mcp-server",
+          "description": "由智能体基于官方来源研究巴西法律。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "leis-mcp",
+          "url": "https://github.com/mazulo/leis-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-leis-mcp",
+          "description": "在 Claude 和其他助手中检索并引用巴西法律。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Jurídico Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-juridico-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-juridico-brasil",
+          "description": "模块化法律平台 MCP 版，从案件跟踪开始。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mercado-financeiro",
+      "title": "金融市场",
+      "items": [
+        {
+          "name": "bolsai-mcp",
+          "url": "https://github.com/viniciuslazzari/bolsai-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-bolsai-mcp",
+          "description": "供智能体使用的巴西股市数据（B3、CVM 和 Banco Central）。",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "DataBolsa",
+          "url": "https://github.com/databolsahq/databolsa",
+          "link": "https://go.mymarketing.click/mcpbr-databolsa",
+          "description": "TypeScript SDK、CLI 和 MCP 服务器，用于访问 DataBolsa 巴西证券数据 API。",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "local-openfinance",
+          "url": "https://github.com/barbieri/local-openfinance",
+          "link": "https://go.mymarketing.click/mcpbr-local-openfinance",
+          "description": "将巴西 Open Finance 数据同步到本地 SQLite，用于记账和生成报表。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenFinData",
+          "url": "https://github.com/robertoecf/OpenFinData",
+          "link": "https://go.mymarketing.click/mcpbr-openfindata",
+          "description": "巴西公共金融数据的开放基础设施。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "agro",
+      "title": "农业",
+      "items": [
+        {
+          "name": "agrobr-mcp",
+          "url": "https://github.com/bruno-portfolio/agrobr-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-agrobr-mcp",
+          "description": "巴西农业数据：价格、收成、贸易、气候和森林砍伐。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "MCP Agro Brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-agro-brasil",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-agro-brasil",
+          "description": "农业大宗商品行情（牛、大豆、玉米、牛奶）及单位换算。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pagamentos",
+      "title": "支付与数字销售",
+      "items": [
+        {
+          "name": "Hotmart",
+          "url": "https://hotmart.mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-hotmart",
+          "description": "远程 MCP 服务器，支持 Hotmart 的销售、订阅和联盟佣金；退款需经批准。",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "hotmart-mcp",
+          "url": "https://github.com/thaleslaray/hotmart-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-hotmart-mcp",
+          "description": "Hotmart API 的 MCP 服务器：销售、订阅、俱乐部、产品和优惠券。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Mercado Pago MCP Server",
+          "url": "https://www.mercadopago.com.br/developers/pt/docs/mcp-server/overview",
+          "link": "https://go.mymarketing.click/mcpbr-mercado-pago-mcp-server",
+          "description": "Mercado Pago 官方 MCP 服务器，可查阅文档，并通过智能体集成支付。",
+          "tags": [
+            "oficial"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-woovi-api",
+          "url": "https://github.com/guilhermemarch/mcp-woovi-api",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-woovi-api",
+          "description": "Woovi 和 OpenPix API 的 MCP 服务器，用于 Pix 收费。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "comercio",
+      "title": "电子商务与电商平台",
+      "items": [
+        {
+          "name": "MCP Dev LATAM",
+          "url": "https://github.com/codespar/mcp-dev-latam",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-dev-latam",
+          "description": "拉丁美洲电商用 MCP 服务器：Pix、NF-e、银行、税务、物流和消息。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "mcp-mercado-livre",
+          "url": "https://github.com/newerton/mcp-mercado-livre",
+          "link": "https://go.mymarketing.click/mcpbr-mcp-mercado-livre",
+          "description": "用于调用 Mercado Livre API 的 MCP 服务器。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nuvemshop-mcp-server",
+          "url": "https://github.com/AlexandreProenca/nuvemshop-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-nuvemshop-mcp-server",
+          "description": "Nuvemshop API 的 MCP 服务器：产品、订单和客户。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "erp",
+      "title": "ERP 与管理",
+      "items": [
+        {
+          "name": "bling-erp-mcp-server",
+          "url": "https://github.com/tempont/bling-erp-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-bling-erp-mcp-server",
+          "description": "Bling ERP 的非官方 MCP 服务器。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Conta Azul MCP",
+          "url": "https://github.com/douglac/contaazul-mcp",
+          "link": "https://go.mymarketing.click/mcpbr-conta-azul-mcp",
+          "description": "将 Conta Azul ERP 连接到 Claude、Cursor 及各类智能体：销售、客户和产品。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "olist-mcp-server",
+          "url": "https://github.com/opastorello/olist-mcp-server",
+          "link": "https://go.mymarketing.click/mcpbr-olist-mcp-server",
+          "description": "Olist ERP（Tiny）API v3 的 MCP 服务器，工具由 OpenAPI 规范生成。",
+          "tags": [
+            "codigo-aberto",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ecossistemas",
+      "title": "合集与生态",
+      "items": [
+        {
+          "name": "BridgeAPI",
+          "url": "https://github.com/EvandroSchechtel/BridgeAPI",
+          "link": "https://go.mymarketing.click/mcpbr-bridgeapi",
+          "description": "面向 WhatsApp、Hotmart 等巴西平台的 MCP 连接器生态。",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Connectors (Agents)",
+          "url": "https://mcp.myagents.click/",
+          "link": "https://go.mymarketing.click/mcpbr-connectors-agents",
+          "description": "远程 MCP 服务器目录，支持 OAuth，包括 CNPJ、CEP 和 Hotmart，适用于 Claude、Cursor 及其他客户端。",
+          "tags": [],
+          "ours": true,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

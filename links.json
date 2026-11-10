@@ -298,5 +298,13 @@
   "https://mcp.myagents.click/": {
     "id": "129c7039-5f1f-4ad5-bb1e-ff005184d535",
     "shortUrl": "https://go.mymarketing.click/mcpbr-connectors-agents"
+  },
+  "https://link.mercadopago.com.br/ciromaciel": {
+    "id": "48e5e22f-dc4c-4b0d-999b-9966723a446a",
+    "shortUrl": "https://go.mymarketing.click/mcpbr-apoie"
+  },
+  "https://github.com/ciro-maciel/awesome-ia-pequeno-negocio": {
+    "id": "24e14561-79e2-4e72-8b8a-780b399d0810",
+    "shortUrl": "https://go.mymarketing.click/mcpbr-lista-ia-pequeno-negocio"
   }
 }

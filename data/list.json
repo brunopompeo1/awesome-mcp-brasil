@@ -12,14 +12,86 @@
             "title": "Dados públicos e governo",
             "description": "IBGE, Banco Central, Congresso e outras bases abertas.",
             "items": [
-                { "name": "bcb-br-mcp", "url": "https://github.com/SidneyBissoli/bcb-br-mcp", "description": "Dados do Banco Central para agentes: Selic, IPCA, câmbio e PIB.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "brasil-data-mcp", "url": "https://github.com/alanpcf/brasil-data-mcp", "description": "Dados públicos brasileiros num servidor só: CNPJ, CEP, bancos, feriados, DDD, ISBN e indicadores econômicos.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "cvm-mcp", "url": "https://github.com/msperlin/cvm-mcp", "description": "Um servidor MCP para o repositório de dados abertos da CVM inteiro.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "ibge-br-mcp", "url": "https://github.com/SidneyBissoli/ibge-br-mcp", "description": "As APIs do IBGE para agentes: dados geográficos, demográficos e estatísticos.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "MCP Brasil", "url": "https://github.com/Mcp-Brasil/mcp-brasil", "description": "Servidor MCP com 70 APIs públicas brasileiras.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "mcp-dados-br", "url": "https://github.com/lucianoon/mcp-dados-br", "description": "Dados públicos do IBGE, do Banco Central, do INMET, da Câmara e do Senado.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "mcp-senado", "url": "https://github.com/cristianoaredes/mcp-senado", "description": "Os dados abertos do Senado Federal para agentes: legislação, senadores e votações.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "senado-br-mcp-cloudflare", "url": "https://github.com/SidneyBissoli/senado-br-mcp-cloudflare", "description": "Servidor MCP hospedado do Senado Federal, no Cloudflare Workers.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "bcb-br-mcp",
+                    "url": "https://github.com/SidneyBissoli/bcb-br-mcp",
+                    "description": "Dados do Banco Central para agentes: Selic, IPCA, câmbio e PIB.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "brasil-data-mcp",
+                    "url": "https://github.com/alanpcf/brasil-data-mcp",
+                    "description": "Dados públicos brasileiros num servidor só: CNPJ, CEP, bancos, feriados, DDD, ISBN e indicadores econômicos.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "cvm-mcp",
+                    "url": "https://github.com/msperlin/cvm-mcp",
+                    "description": "Um servidor MCP para o repositório de dados abertos da CVM inteiro.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "ibge-br-mcp",
+                    "url": "https://github.com/SidneyBissoli/ibge-br-mcp",
+                    "description": "As APIs do IBGE para agentes: dados geográficos, demográficos e estatísticos.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "MCP Brasil",
+                    "url": "https://github.com/Mcp-Brasil/mcp-brasil",
+                    "description": "Servidor MCP com 70 APIs públicas brasileiras.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "mcp-dados-br",
+                    "url": "https://github.com/lucianoon/mcp-dados-br",
+                    "description": "Dados públicos do IBGE, do Banco Central, do INMET, da Câmara e do Senado.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "mcp-senado",
+                    "url": "https://github.com/cristianoaredes/mcp-senado",
+                    "description": "Os dados abertos do Senado Federal para agentes: legislação, senadores e votações.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "senado-br-mcp-cloudflare",
+                    "url": "https://github.com/SidneyBissoli/senado-br-mcp-cloudflare",
+                    "description": "Servidor MCP hospedado do Senado Federal, no Cloudflare Workers.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -27,12 +99,64 @@
             "title": "Empresas, CNPJ e compras públicas",
             "description": "Consultar empresas e licitações.",
             "items": [
-                { "name": "Buscador de CNPJ", "url": "https://github.com/buscadordecnpj/buscador-de-cnpj", "description": "Servidor MCP para consultar empresas pelo serviço Buscador de CNPJ.", "tags": ["codigo-aberto"], "added": "2026-11-10" },
-                { "name": "CNPJ e CEP", "url": "https://brazil-lookup.mcp.myagents.click/", "description": "Servidor MCP remoto com empresa pelo CNPJ, CEP, feriados, DDD, bancos, NCM, Selic, CDI e IPCA, e conferência de CPF e CNPJ.", "tags": ["gratis"], "ours": true, "added": "2026-11-10" },
-                { "name": "cnpj-mcp", "url": "https://github.com/bnovarini/cnpj-mcp", "description": "Consultas analíticas sobre a base aberta de CNPJ da Receita Federal, com DuckDB.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "Licinexus MCP", "url": "https://github.com/Licinexus/licinexus-mcp", "description": "Dados de compras públicas do PNCP e da Receita Federal para agentes.", "tags": ["codigo-aberto"], "added": "2026-11-10" },
-                { "name": "mcp-dadosbr", "url": "https://github.com/cristianoaredes/mcp-dadosbr", "description": "Consulta de empresa pelo CNPJ e de endereço pelo CEP.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "Radar CNPJ MCP", "url": "https://github.com/wendersoon/radar-cnpj-mcp", "description": "Encontra empresas brasileiras por CNAE e região, com dados abertos da Receita Federal.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "Buscador de CNPJ",
+                    "url": "https://github.com/buscadordecnpj/buscador-de-cnpj",
+                    "description": "Servidor MCP para consultar empresas pelo serviço Buscador de CNPJ.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "CNPJ e CEP",
+                    "url": "https://brazil-lookup.mcp.myagents.click/",
+                    "description": "Servidor MCP remoto com empresa pelo CNPJ, CEP, feriados, DDD, bancos, NCM, Selic, CDI e IPCA, e conferência de CPF e CNPJ.",
+                    "tags": [
+                        "gratis"
+                    ],
+                    "ours": true,
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "cnpj-mcp",
+                    "url": "https://github.com/bnovarini/cnpj-mcp",
+                    "description": "Consultas analíticas sobre a base aberta de CNPJ da Receita Federal, com DuckDB.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Licinexus MCP",
+                    "url": "https://github.com/Licinexus/licinexus-mcp",
+                    "description": "Dados de compras públicas do PNCP e da Receita Federal para agentes.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "mcp-dadosbr",
+                    "url": "https://github.com/cristianoaredes/mcp-dadosbr",
+                    "description": "Consulta de empresa pelo CNPJ e de endereço pelo CEP.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Radar CNPJ MCP",
+                    "url": "https://github.com/wendersoon/radar-cnpj-mcp",
+                    "description": "Encontra empresas brasileiras por CNAE e região, com dados abertos da Receita Federal.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -40,8 +164,37 @@
             "title": "Fiscal e nota fiscal",
             "description": "Impostos, documentos fiscais e obrigações.",
             "items": [
-                { "name": "MCP Fiscal Brasil", "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil", "description": "Servidor MCP fiscal: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional e a reforma tributária.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "MCP Server ACBrNFe", "url": "https://github.com/Code4Delphi/MCP-Server-ACBrNFe", "description": "Geração e envio de NF-e com o componente ACBrNFe, em Delphi.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "MCP Fiscal Brasil",
+                    "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+                    "description": "Servidor MCP fiscal: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional e a reforma tributária.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "MCP Server ACBrNFe",
+                    "url": "https://github.com/Code4Delphi/MCP-Server-ACBrNFe",
+                    "description": "Geração e envio de NF-e com o componente ACBrNFe, em Delphi.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Suíte Brasil IA x402",
+                    "url": "https://github.com/brunopompeo1/brazil-ai-fiscal-apis-x402",
+                    "description": "Sete APIs para agentes: auditoria de XML NF-e, boletos, cálculos tributários, CNPJ/PIX e índices do Banco Central, com pagamento por chamada em USDC na Base.",
+                    "tags": [
+                        "codigo-aberto",
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-17"
+                }
             ]
         },
         {
@@ -49,11 +202,56 @@
             "title": "Jurídico e legislação",
             "description": "Leis, processos e precedentes.",
             "items": [
-                { "name": "BNP API", "url": "https://github.com/georgemarmelstein/bnp-api", "description": "Servidor MCP para o Banco Nacional de Precedentes do CNJ, com busca de precedentes vinculantes.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "br-eli-mcp", "url": "https://github.com/matematicsolutions/br-eli-mcp", "description": "Legislação brasileira por oito APIs abertas sem chave: projetos e leis da Câmara e do Senado, DataJud e outras.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "brlaw_mcp_server", "url": "https://github.com/pdmtt/brlaw_mcp_server", "description": "Pesquisa sobre o direito brasileiro em fontes oficiais, feita por agentes.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "leis-mcp", "url": "https://github.com/mazulo/leis-mcp", "description": "Busca e cita a legislação brasileira no Claude e em outros assistentes.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "MCP Jurídico Brasil", "url": "https://github.com/DeHor-Labs/mcp-juridico-brasil", "description": "Plataforma jurídica modular por MCP, começando pelo acompanhamento processual.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "BNP API",
+                    "url": "https://github.com/georgemarmelstein/bnp-api",
+                    "description": "Servidor MCP para o Banco Nacional de Precedentes do CNJ, com busca de precedentes vinculantes.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "br-eli-mcp",
+                    "url": "https://github.com/matematicsolutions/br-eli-mcp",
+                    "description": "Legislação brasileira por oito APIs abertas sem chave: projetos e leis da Câmara e do Senado, DataJud e outras.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "brlaw_mcp_server",
+                    "url": "https://github.com/pdmtt/brlaw_mcp_server",
+                    "description": "Pesquisa sobre o direito brasileiro em fontes oficiais, feita por agentes.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "leis-mcp",
+                    "url": "https://github.com/mazulo/leis-mcp",
+                    "description": "Busca e cita a legislação brasileira no Claude e em outros assistentes.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "MCP Jurídico Brasil",
+                    "url": "https://github.com/DeHor-Labs/mcp-juridico-brasil",
+                    "description": "Plataforma jurídica modular por MCP, começando pelo acompanhamento processual.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -61,10 +259,45 @@
             "title": "Mercado financeiro",
             "description": "Bolsa, fundos e finanças abertas.",
             "items": [
-                { "name": "bolsai-mcp", "url": "https://github.com/viniciuslazzari/bolsai-mcp", "description": "Dados do mercado de ações brasileiro (B3, CVM e Banco Central) para agentes.", "tags": ["codigo-aberto"], "added": "2026-11-10" },
-                { "name": "DataBolsa", "url": "https://github.com/databolsahq/databolsa", "description": "SDK em TypeScript, CLI e servidor MCP para a API de dados da bolsa brasileira do DataBolsa.", "tags": ["codigo-aberto", "sdk"], "added": "2026-11-10" },
-                { "name": "local-openfinance", "url": "https://github.com/barbieri/local-openfinance", "description": "Sincroniza dados do Open Finance brasileiro num SQLite local para anotar gastos e gerar relatórios.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "OpenFinData", "url": "https://github.com/robertoecf/OpenFinData", "description": "Infraestrutura aberta para dados financeiros públicos do Brasil.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "bolsai-mcp",
+                    "url": "https://github.com/viniciuslazzari/bolsai-mcp",
+                    "description": "Dados do mercado de ações brasileiro (B3, CVM e Banco Central) para agentes.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "DataBolsa",
+                    "url": "https://github.com/databolsahq/databolsa",
+                    "description": "SDK em TypeScript, CLI e servidor MCP para a API de dados da bolsa brasileira do DataBolsa.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "local-openfinance",
+                    "url": "https://github.com/barbieri/local-openfinance",
+                    "description": "Sincroniza dados do Open Finance brasileiro num SQLite local para anotar gastos e gerar relatórios.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "OpenFinData",
+                    "url": "https://github.com/robertoecf/OpenFinData",
+                    "description": "Infraestrutura aberta para dados financeiros públicos do Brasil.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -72,8 +305,26 @@
             "title": "Agronegócio",
             "description": "Cotações e dados do campo.",
             "items": [
-                { "name": "agrobr-mcp", "url": "https://github.com/bruno-portfolio/agrobr-mcp", "description": "Dados agrícolas brasileiros: preços, safras, comércio, clima e desmatamento.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "MCP Agro Brasil", "url": "https://github.com/DeHor-Labs/mcp-agro-brasil", "description": "Cotações do agronegócio (boi, soja, milho, leite) e conversões de unidade.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "agrobr-mcp",
+                    "url": "https://github.com/bruno-portfolio/agrobr-mcp",
+                    "description": "Dados agrícolas brasileiros: preços, safras, comércio, clima e desmatamento.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "MCP Agro Brasil",
+                    "url": "https://github.com/DeHor-Labs/mcp-agro-brasil",
+                    "description": "Cotações do agronegócio (boi, soja, milho, leite) e conversões de unidade.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -81,10 +332,43 @@
             "title": "Pagamentos e vendas digitais",
             "description": "Cobrar, receber e acompanhar vendas.",
             "items": [
-                { "name": "Hotmart", "url": "https://hotmart.mcp.myagents.click/", "description": "Servidor MCP remoto com vendas, assinaturas e comissões de afiliados da Hotmart; reembolso só com aprovação.", "tags": [], "ours": true, "added": "2026-11-10" },
-                { "name": "hotmart-mcp", "url": "https://github.com/thaleslaray/hotmart-mcp", "description": "Servidor MCP para a API da Hotmart: vendas, assinaturas, clube, produtos e cupons.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "Mercado Pago MCP Server", "url": "https://www.mercadopago.com.br/developers/pt/docs/mcp-server/overview", "description": "O servidor MCP oficial do Mercado Pago, para consultar a documentação e integrar pagamentos pelo agente.", "tags": ["oficial"], "added": "2026-11-10" },
-                { "name": "mcp-woovi-api", "url": "https://github.com/guilhermemarch/mcp-woovi-api", "description": "Servidor MCP para a API da Woovi e OpenPix, de cobranças por Pix.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "Hotmart",
+                    "url": "https://hotmart.mcp.myagents.click/",
+                    "description": "Servidor MCP remoto com vendas, assinaturas e comissões de afiliados da Hotmart; reembolso só com aprovação.",
+                    "tags": [],
+                    "ours": true,
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "hotmart-mcp",
+                    "url": "https://github.com/thaleslaray/hotmart-mcp",
+                    "description": "Servidor MCP para a API da Hotmart: vendas, assinaturas, clube, produtos e cupons.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Mercado Pago MCP Server",
+                    "url": "https://www.mercadopago.com.br/developers/pt/docs/mcp-server/overview",
+                    "description": "O servidor MCP oficial do Mercado Pago, para consultar a documentação e integrar pagamentos pelo agente.",
+                    "tags": [
+                        "oficial"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "mcp-woovi-api",
+                    "url": "https://github.com/guilhermemarch/mcp-woovi-api",
+                    "description": "Servidor MCP para a API da Woovi e OpenPix, de cobranças por Pix.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -92,9 +376,36 @@
             "title": "Comércio eletrônico e marketplaces",
             "description": "Lojas, marketplaces e o comércio da América Latina.",
             "items": [
-                { "name": "MCP Dev LATAM", "url": "https://github.com/codespar/mcp-dev-latam", "description": "Servidores MCP para o comércio na América Latina: Pix, NF-e, bancos, fiscal, logística e mensagens.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "mcp-mercado-livre", "url": "https://github.com/newerton/mcp-mercado-livre", "description": "Servidor MCP para interagir com a API do Mercado Livre.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "nuvemshop-mcp-server", "url": "https://github.com/AlexandreProenca/nuvemshop-mcp-server", "description": "Servidor MCP para a API da Nuvemshop: produtos, pedidos e clientes.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "MCP Dev LATAM",
+                    "url": "https://github.com/codespar/mcp-dev-latam",
+                    "description": "Servidores MCP para o comércio na América Latina: Pix, NF-e, bancos, fiscal, logística e mensagens.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "mcp-mercado-livre",
+                    "url": "https://github.com/newerton/mcp-mercado-livre",
+                    "description": "Servidor MCP para interagir com a API do Mercado Livre.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "nuvemshop-mcp-server",
+                    "url": "https://github.com/AlexandreProenca/nuvemshop-mcp-server",
+                    "description": "Servidor MCP para a API da Nuvemshop: produtos, pedidos e clientes.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -102,9 +413,36 @@
             "title": "ERPs e gestão",
             "description": "Os sistemas de gestão mais usados por empresas brasileiras.",
             "items": [
-                { "name": "bling-erp-mcp-server", "url": "https://github.com/tempont/bling-erp-mcp-server", "description": "Servidor MCP não oficial para o Bling ERP.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "Conta Azul MCP", "url": "https://github.com/douglac/contaazul-mcp", "description": "Conecta o ERP Conta Azul ao Claude, ao Cursor e a agentes: vendas, clientes e produtos.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" },
-                { "name": "olist-mcp-server", "url": "https://github.com/opastorello/olist-mcp-server", "description": "Servidor MCP para a API v3 do Olist ERP (Tiny), com ferramentas geradas da especificação OpenAPI.", "tags": ["codigo-aberto", "gratis"], "added": "2026-11-10" }
+                {
+                    "name": "bling-erp-mcp-server",
+                    "url": "https://github.com/tempont/bling-erp-mcp-server",
+                    "description": "Servidor MCP não oficial para o Bling ERP.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Conta Azul MCP",
+                    "url": "https://github.com/douglac/contaazul-mcp",
+                    "description": "Conecta o ERP Conta Azul ao Claude, ao Cursor e a agentes: vendas, clientes e produtos.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "olist-mcp-server",
+                    "url": "https://github.com/opastorello/olist-mcp-server",
+                    "description": "Servidor MCP para a API v3 do Olist ERP (Tiny), com ferramentas geradas da especificação OpenAPI.",
+                    "tags": [
+                        "codigo-aberto",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
             ]
         },
         {
@@ -112,8 +450,23 @@
             "title": "Coleções e ecossistemas",
             "description": "Projetos que reúnem vários conectores brasileiros.",
             "items": [
-                { "name": "BridgeAPI", "url": "https://github.com/EvandroSchechtel/BridgeAPI", "description": "Um ecossistema de conectores MCP para plataformas brasileiras, como WhatsApp e Hotmart.", "tags": ["codigo-aberto"], "added": "2026-11-10" },
-                { "name": "Connectors (Agents)", "url": "https://mcp.myagents.click/", "description": "Catálogo de servidores MCP remotos com OAuth, entre eles CNPJ e CEP e Hotmart, para o Claude, o Cursor e outros clientes.", "tags": [], "ours": true, "added": "2026-11-10" }
+                {
+                    "name": "BridgeAPI",
+                    "url": "https://github.com/EvandroSchechtel/BridgeAPI",
+                    "description": "Um ecossistema de conectores MCP para plataformas brasileiras, como WhatsApp e Hotmart.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Connectors (Agents)",
+                    "url": "https://mcp.myagents.click/",
+                    "description": "Catálogo de servidores MCP remotos com OAuth, entre eles CNPJ e CEP e Hotmart, para o Claude, o Cursor e outros clientes.",
+                    "tags": [],
+                    "ours": true,
+                    "added": "2026-11-10"
+                }
             ]
         }
     ]
